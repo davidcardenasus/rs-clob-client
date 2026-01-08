@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.0](https://github.com/Polymarket/rs-clob-client/compare/v0.3.3...v0.4.0) - 2026-01-08
+
+### Added
+
+- add Unknown(String) variant to all enums for forward compatibility ([#124](https://github.com/Polymarket/rs-clob-client/pull/124))
+- add subscribe_last_trade_price websocket method ([#121](https://github.com/Polymarket/rs-clob-client/pull/121))
+- support post-only orders ([#115](https://github.com/Polymarket/rs-clob-client/pull/115))
+- *(heartbeats)* [**breaking**] add heartbeats ([#113](https://github.com/Polymarket/rs-clob-client/pull/113))
+
+### Fixed
+
+- add MakerRebate enum option to ActivityType ([#127](https://github.com/Polymarket/rs-clob-client/pull/127))
+- suppress unused variable warnings in tracing cfg blocks ([#125](https://github.com/Polymarket/rs-clob-client/pull/125))
+- add Yield enum option to ActivityType ([#122](https://github.com/Polymarket/rs-clob-client/pull/122))
+
 ## [0.3.3](https://github.com/Polymarket/rs-clob-client/compare/v0.3.2...v0.3.3) - 2026-01-06
 
 ### Added
